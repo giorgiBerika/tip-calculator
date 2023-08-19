@@ -1,0 +1,31 @@
+.tip-button
+{
+    max-width: 117px;
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+
+    background-color: var(--tip-btn-color);
+    color: var(--common-white);
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    cursor: pointer;
+}
+
+.tip-button-hover
+{
+    background-color: var(--btn-hover-backColor);
+    color: var(--btn-hover-color);
+    transition-duration: 200ms;
+}
+
+.tip-button-clicked
+{
+    background-color: var(--btn-clicked-color);
+    color: var(--tip-btn-color);
+}

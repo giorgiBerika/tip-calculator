@@ -1,0 +1,16 @@
+.people-num-input
+.default-input
+{
+    border: 2px solid #E17052;
+    border-radius: 5px;
+}
+
+.people-num-input::after
+{
+    content: "Can\'t be zero";
+    color: #E17457;
+    position: absolute;
+    right: 5px;
+    bottom: 55px;
+
+}

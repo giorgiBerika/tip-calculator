@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Manrope:wght@600&family=Outfit&family=Overpass&family=Space+Mono&display=swap');
+:root {
+  font-family: 'Space Mono', monospace;
+  /* line-height: 1.5; */
+  /* font-weight: 400; */
+
+  background-color: #C5E4E7;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* Resolution */
+
+  --desktop-reso: 1440px;
+  --mobile-reso: 375px;
+
+  /* color */
+  --common-white: #FFF;
+  --back-white: #F3F9FA;
+  --para-title-color: #5E7A7D;
+  --tip-btn-color: #00474B;
+  --btn-hover-backColor: #9FE8DF;
+  --btn-hover-color: #00474B;
+  --btn-clicked-color: #26C2AE;
+  --custom-btn-color: #547878;
+  --result-info-grey: #7F9D9F;
+  --reset-btn-inactive: #0D686D;
+}
+
+*, 
+*::before,
+*::after
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  max-width: var(--desktop-reso);
+  width: 100%;
+  min-height: 100vh;
+}
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }

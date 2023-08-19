@@ -1,0 +1,47 @@
+.result-info
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 92px;
+    width: 100%;
+}
+
+.result-info
+.result-info-text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+}
+.result-info
+.result-info-text
+h3
+{
+    font-size: 1rem;
+    color: var(--common-white);
+    text-transform: capitalize;
+}
+
+.result-info
+.result-info-text
+span
+{
+    font-size: 13px;
+    color: var(--result-info-grey);
+}
+
+.result-info
+h2
+{
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    color: var(--btn-clicked-color);
+}
