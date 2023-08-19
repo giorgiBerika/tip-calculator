@@ -45,3 +45,18 @@ h2
     line-height: normal;
     color: var(--btn-clicked-color);
 }
+
+@media screen and (max-width: 445px) {
+
+    .result-info
+    {
+        gap: 87px;
+    }
+
+    .result-info
+    h2
+    {
+        font-size: 37px;
+    }
+    
+}

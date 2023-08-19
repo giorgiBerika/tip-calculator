@@ -1,6 +1,5 @@
 import './TipBtn.css';
 
-import { useState } from 'react';
 
 
 const TipBtn = ({btnClicked, setBtnClicked, setTipValue, ...props}) =>

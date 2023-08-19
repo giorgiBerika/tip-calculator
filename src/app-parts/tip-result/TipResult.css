@@ -13,3 +13,13 @@
 
     padding: 40px 40px;
 }
+
+@media screen and (max-width: 445px) {
+
+    .tip-result-wrapper
+    {
+        max-width:  340px;
+        padding: 37px 27px 24px 24px;
+    }
+    
+}

@@ -41,3 +41,12 @@
     grid-template-rows: auto;
     grid-gap: 22px 14px;
 }
+
+@media screen and (max-width: 445px) {
+
+    .tip-list-wrapper
+    {
+        grid-template-columns: repeat(2, 118px);
+    }
+    
+}

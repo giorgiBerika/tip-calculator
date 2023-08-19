@@ -33,3 +33,12 @@
     background-color: var(--reset-btn-inactive);
     
 }
+
+@media screen and (max-width: 445px) {
+
+    .tip-reset-btn
+    {
+        max-width: 281px;
+    }
+    
+}

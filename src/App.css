@@ -2,12 +2,12 @@
 .container
 {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 88px;
+    justify-content: space-around;
+    gap: 3rem;
 
 }
 
@@ -21,4 +21,14 @@
     background-color: var(--common-white);
     border-radius: 25px;
     box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.20);
+}
+
+@media screen and (max-width: 920px) {
+
+    .container
+    .app-wrapper
+    {
+        flex-direction: column;
+    }
+    
 }
